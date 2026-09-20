@@ -1,6 +1,6 @@
 ---
-title: "Identidad y propósito"
-description: "La identidad, misión y visión de QuetzalCloud Consulting."
+title: 'Identidad y propósito'
+description: 'La identidad, misión y visión de QuetzalCloud Consulting.'
 ---
 
 ## Nuestra misión

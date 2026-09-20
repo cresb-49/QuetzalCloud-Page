@@ -17,7 +17,6 @@ export default defineContentConfig({
         title: z.string(),
         description: z.string(),
         order: z.number(),
-        status: z.enum(['completo', 'en-progreso', 'pendiente']),
         updatedAt: z.string()
       })
     })

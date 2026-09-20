@@ -1,0 +1,7 @@
+.nuxt/
+.output/
+node_modules/
+pnpm-lock.yaml
+public/favicon.ico
+AGENTS.md
+seccion1_empresa_y_contexto_actual.md

@@ -16,7 +16,7 @@ El idioma principal de toda la interfaz y el contenido es **español**.
 - El archivo `seccion_1_empresa_y_contexto_actual.md` contiene el contenido aprobado de la sección 1.
 - No se debe cambiar el significado de ese documento ni inventar cifras, certificaciones, clientes, alianzas, testimonios o resultados.
 - Se permiten correcciones menores de ortografía o adaptación del texto para tarjetas, encabezados y resúmenes, siempre que se conserve el sentido original.
-- La información de contacto aún no está definida. Mostrar un estado neutral como **“Información de contacto próximamente”**. No inventar correos, teléfonos, direcciones ni perfiles sociales.
+- Para esta versión se autoriza publicar los siguientes datos de contacto de demostración proporcionados por el equipo: sitio web `quetzalcloud.vercel.app`, correo `contacto@quetzalcloudconsulting.com`, teléfono `+502 5555-0101`, ubicación Ciudad de Guatemala, Guatemala y horario de lunes a viernes, de 8:00 a 17:00 horas. No añadir otros datos de contacto.
 - Los documentos `borrador_actividad_microservicios.md` y `propuesta_individual_microservicios.md` solo deben usarse si su información es pertinente y no contradice el proyecto FINCA.
 - Cuando exista una contradicción entre archivos, detenerse y señalarla antes de decidir qué dato publicar.
 
@@ -303,4 +303,3 @@ La primera versión se considera completa cuando:
 - La interfaz es adaptable, accesible y coherente.
 - El contenido está separado de la presentación y puede editarse desde Markdown.
 - Existe un README con instalación, desarrollo, compilación y forma de agregar nuevos contenidos.
-

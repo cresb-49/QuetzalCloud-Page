@@ -1,5 +1,25 @@
 <script setup lang="ts">
-useSeoMeta({ title: 'Contacto · QuetzalCloud', description: 'Información de contacto de QuetzalCloud Consulting próximamente.' })
+const { data: contact } = await useAsyncData('contact', () =>
+  queryCollection('empresa').path('/empresa/contacto').first()
+)
+
+useSeoMeta({
+  title: 'Contacto · QuetzalCloud',
+  description: 'Canales de contacto de QuetzalCloud Consulting.'
+})
 </script>
 
-<template><section class="section"><div class="container"><SectionHeader eyebrow="Contacto" title="Hablemos cuando sea el momento." description="Estamos preparando este espacio para compartir los canales oficiales de QuetzalCloud Consulting." /><div class="contact-card"><p class="eyebrow">Estado</p><h2>Información de contacto próximamente</h2><p>La información de contacto será publicada cuando sea definida por el equipo. No se muestran datos provisionales.</p></div></div></section></template>
+<template>
+  <section class="section">
+    <div class="container">
+      <SectionHeader
+        eyebrow="Contacto"
+        title="Hablemos de tu próximo avance."
+        description="Encuentra los canales oficiales de QuetzalCloud Consulting."
+      />
+      <div class="contact-card">
+        <ContentRenderer v-if="contact" class="contact-prose prose" :value="contact" />
+      </div>
+    </div>
+  </section>
+</template>

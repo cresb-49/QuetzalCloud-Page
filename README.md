@@ -25,10 +25,25 @@ El sitio estará disponible en `http://localhost:3000`.
 
 ```bash
 pnpm typecheck
+pnpm format:check
 pnpm build
 ```
 
-No hay pruebas automatizadas ni lint configurados todavía. La compilación de producción valida el renderizado SSR y la generación del bundle.
+No hay pruebas automatizadas ni lint configurados todavía. Prettier valida el formato del código y la compilación de producción valida el renderizado SSR y la generación del bundle.
+
+## Formato
+
+Formatea todos los archivos del proyecto con:
+
+```bash
+pnpm format
+```
+
+Comprueba el formato sin modificar archivos con:
+
+```bash
+pnpm format:check
+```
 
 ## Estructura
 
@@ -36,7 +51,7 @@ No hay pruebas automatizadas ni lint configurados todavía. La compilación de p
 - `app/components/`: marca, layout, tarjetas, estados y navegación reutilizable.
 - `app/assets/css/main.css`: tokens visuales, responsive y accesibilidad.
 - `content/empresa/`: identidad, servicios y quiénes somos.
-- `content/propuesta/`: capítulos editoriales de FINCA con metadatos de estado y orden.
+- `content/propuesta/`: los tres capítulos editoriales publicados de FINCA con metadatos de estado y orden.
 - `content.config.ts`: colecciones y validación del contenido Markdown.
 - `public/`: favicon y recursos públicos.
 
@@ -44,13 +59,11 @@ No hay pruebas automatizadas ni lint configurados todavía. La compilación de p
 
 Edita el archivo correspondiente dentro de `content/propuesta/`:
 
-1. `02-infraestructura-actual.md`: inventario y análisis técnico.
-2. `03-servicios-demanda.md`: servicios, usuarios y métricas de demanda.
-3. `04-solucion-cloud.md`: arquitectura, integraciones y seguridad.
-4. `05-costos-planificacion.md`: costos, fases, responsables y cronograma.
-5. `06-ventajas-limitantes.md`: beneficios, condiciones, limitaciones y conclusiones.
+1. `01-contexto-actual.md`: identidad, contexto, problema y necesidades.
+2. `04-solucion-cloud.md`: arquitectura, integraciones y seguridad.
+3. `06-ventajas-limitantes.md`: beneficios, condiciones, limitaciones y conclusiones.
 
-Conserva el frontmatter (`title`, `description`, `order`, `status` y `updatedAt`). Usa `completo`, `en-progreso` o `pendiente` como estados válidos. El contenido de contacto permanece pendiente hasta que el equipo defina los datos oficiales.
+Conserva el frontmatter (`title`, `description`, `order` y `updatedAt`). El contenido de contacto permanece pendiente hasta que el equipo defina los datos oficiales.
 
 ## Producción
 
