@@ -1,37 +1,9 @@
 ---
-title: "Empresa y contexto actual"
-description: "Identidad de QuetzalCloud y contexto operativo de Financiera FINCA Honduras."
+title: 'Contexto de la organizacion'
+description: 'Identidad de QuetzalCloud y contexto operativo de Financiera FINCA Honduras.'
 order: 1
-status: "completo"
-updatedAt: "2026-09-19"
+updatedAt: '2026-09-19'
 ---
-
-## QuetzalCloud Consulting
-
-QuetzalCloud Consulting es una empresa tecnológica especializada en transformación digital, computación en la nube y modernización de sistemas empresariales. Su nombre combina la identidad regional con una visión tecnológica orientada a ayudar a las organizaciones a operar de manera más eficiente, segura y escalable.
-
-## Identidad básica
-
-### Misión
-
-Diseñar e implementar soluciones tecnológicas seguras, accesibles y escalables que permitan a las organizaciones modernizar sus procesos, mejorar la experiencia de sus clientes y aprovechar de forma eficiente la tecnología disponible.
-
-### Visión
-
-Ser una empresa tecnológica de referencia en Centroamérica para la transformación digital de organizaciones de servicios, reconocida por ofrecer soluciones confiables, innovadoras y alineadas con las necesidades reales de cada cliente.
-
-### Valores
-
-- **Integridad:** actuar con transparencia y responsabilidad en el manejo de información y recursos.
-- **Seguridad:** proteger la confidencialidad, integridad y disponibilidad de los datos.
-- **Innovación:** aplicar tecnologías modernas para resolver problemas concretos.
-- **Compromiso:** acompañar al cliente durante todas las etapas del proyecto.
-- **Calidad:** entregar soluciones estables, documentadas y medibles.
-- **Inclusión:** promover tecnología accesible que contribuya a ampliar el alcance de los servicios financieros.
-
-### Objetivo general
-
-Apoyar a las organizaciones en la evaluación, planificación y ejecución de proyectos de transformación digital mediante arquitecturas en la nube que reduzcan las limitaciones operativas y mejoren la prestación de servicios.
 
 ## Descripción de FINCA
 
@@ -63,7 +35,3 @@ Entre los clientes individuales se registran aproximadamente **32,045 consultas 
 - **Implementación gradual:** controlar riesgos, validar resultados y capacitar al personal por fases.
 - **Aprovechamiento de la conectividad contratada:** utilizar el Internet dedicado como base para integrar y publicar servicios digitales de forma segura.
 - **Cumplimiento regulatorio:** mantener la solución alineada con las obligaciones aplicables a una institución supervisada por la CNBS.
-
-> Esta página presenta un caso académico. No representa un portal bancario operativo ni afirma que las operaciones descritas estén implementadas.
-
-**Fuente:** elaboración propia con base en el caso de estudio *Proyecto Final MIICC307A*.

@@ -14,11 +14,10 @@
           <NuxtLink to="/contacto">Contacto</NuxtLink>
         </nav>
       </div>
-      <div class="footer-note">
-        <p><strong>Proyecto académico</strong></p>
-        <p>La propuesta para FINCA se presenta con fines académicos y no constituye un portal bancario operativo.</p>
-      </div>
     </div>
-    <div class="container footer-bottom"><span>© {{ new Date().getFullYear() }} QuetzalCloud Consulting</span><span>Honduras · Centroamérica</span></div>
+    <div class="container footer-bottom">
+      <span>© {{ new Date().getFullYear() }} QuetzalCloud Consulting</span
+      ><span>Guatemala · Centroamérica</span>
+    </div>
   </footer>
 </template>

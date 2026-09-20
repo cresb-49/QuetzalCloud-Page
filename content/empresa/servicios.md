@@ -1,6 +1,6 @@
 ---
-title: "Servicios"
-description: "Capacidades de QuetzalCloud Consulting para acompañar la transformación digital."
+title: 'Servicios'
+description: 'Capacidades de QuetzalCloud Consulting para acompañar la transformación digital.'
 ---
 
 QuetzalCloud Consulting ofrece servicios orientados a resolver necesidades concretas de infraestructura, software, datos y seguridad.

@@ -6,4 +6,10 @@ defineProps<{
 }>()
 </script>
 
-<template><article class="metric-card"><strong>{{ value }}</strong><span>{{ label }}</span><small v-if="detail">{{ detail }}</small></article></template>
+<template>
+  <article class="metric-card">
+    <strong>{{ value }}</strong
+    ><span>{{ label }}</span
+    ><small v-if="detail">{{ detail }}</small>
+  </article>
+</template>

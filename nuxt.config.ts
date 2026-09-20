@@ -5,15 +5,24 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   components: [{ path: '~/components', pathPrefix: false }],
   css: ['~/assets/css/main.css'],
+  routeRules: {
+    '/**': {
+      headers: {
+        'X-Robots-Tag': 'noindex, nofollow, noarchive'
+      }
+    }
+  },
   app: {
     head: {
       htmlAttrs: { lang: 'es' },
-      link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
-      ],
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
       meta: [
         { name: 'theme-color', content: '#0B3D2E' },
-        { name: 'description', content: 'QuetzalCloud Consulting: tecnología que conecta, transforma y crece contigo.' }
+        { name: 'robots', content: 'noindex, nofollow, noarchive' },
+        {
+          name: 'description',
+          content: 'QuetzalCloud Consulting: tecnología que conecta, transforma y crece contigo.'
+        }
       ]
     }
   }
