@@ -87,19 +87,3 @@ useSeoMeta({
     </section>
   </div>
 </template>
-
-<style scoped>
-.text-link {
-  display: inline-flex;
-  gap: 10px;
-  margin-top: 16px;
-  color: var(--color-primary);
-  font-weight: 700;
-}
-.text-link span {
-  transition: transform 0.2s ease;
-}
-.text-link:hover span {
-  transform: translateX(4px);
-}
-</style>

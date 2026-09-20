@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   components: [{ path: '~/components', pathPrefix: false }],
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/tailwind.css', '~/assets/css/main.css'],
   routeRules: {
     '/**': {
       headers: {

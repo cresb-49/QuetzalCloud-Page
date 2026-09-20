@@ -7,7 +7,8 @@
       />
       <path
         d="M20.5 30.6c6.2-2.2 10.2-6.3 11.8-12.5-4.5 1.2-7.9 3.3-10.1 6-1.5-2.7-3.4-4.6-5.6-5.8.8 4.8 2.1 8.4 3.9 12.3Z"
-        fill="var(--color-accent)"
+        class="text-cloud"
+        fill="currentColor"
       />
     </svg>
   </span>

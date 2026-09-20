@@ -1,6 +1,6 @@
 # QuetzalCloud Consulting
 
-Sitio institucional y propuesta académica de transformación digital para Financiera FINCA Honduras. Está construido con Nuxt 4, Vue 3, TypeScript y `@nuxt/content`; todo el contenido editorial vive en Markdown.
+Sitio institucional y propuesta académica de transformación digital para Financiera FINCA Honduras. Está construido con Nuxt 4, Vue 3, TypeScript, `@nuxt/content` y Tailwind CSS; todo el contenido editorial vive en Markdown.
 
 ## Requisitos
 
@@ -49,10 +49,12 @@ pnpm format:check
 
 - `app/pages/`: rutas institucionales y capítulos de la propuesta.
 - `app/components/`: marca, layout, tarjetas, estados y navegación reutilizable.
-- `app/assets/css/main.css`: tokens visuales, responsive y accesibilidad.
+- `app/assets/css/main.css`: capa de componentes y tokens visuales construida con Tailwind mediante `@apply`.
+- `app/assets/css/tailwind.css`: entrada de Tailwind CSS.
 - `content/empresa/`: identidad, servicios y quiénes somos.
 - `content/propuesta/`: los tres capítulos editoriales publicados de FINCA con metadatos de estado y orden.
 - `content.config.ts`: colecciones y validación del contenido Markdown.
+- `tailwind.config.ts`: tokens reutilizables de color, tipografía y bordes.
 - `public/`: favicon y recursos públicos.
 
 ## Completar capítulos
