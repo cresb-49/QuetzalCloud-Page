@@ -76,8 +76,8 @@ useSeoMeta({
         <div>
           <h3>Una propuesta de transformación para Financiera FINCA Honduras.</h3>
           <p>
-            Explora el contexto aprobado y la estructura preparada para los siguientes capítulos del
-            proyecto.
+            Explora el contexto aprobado y la estructura preparada para el proyecto de
+            transformación digital.
           </p>
           <NuxtLink class="text-link" to="/propuesta"
             >Explorar la propuesta <span>→</span></NuxtLink

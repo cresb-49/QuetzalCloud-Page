@@ -9,7 +9,7 @@ const { data: page } = await useAsyncData(`proposal-${props.source}`, () =>
 )
 
 if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Capítulo no encontrado' })
+  throw createError({ statusCode: 404, statusMessage: 'Sección no encontrada' })
 }
 
 useSeoMeta({
@@ -30,7 +30,6 @@ useSeoMeta({
         </nav>
         <header class="chapter-heading">
           <div>
-            <p class="eyebrow">Capítulo {{ String(page.order).padStart(2, '0') }}</p>
             <h1>{{ page.title }}</h1>
             <p>{{ page.description }}</p>
           </div>

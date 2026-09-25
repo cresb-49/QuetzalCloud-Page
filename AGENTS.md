@@ -55,10 +55,7 @@ app/
     propuesta/
       index.vue
       contexto.vue
-      infraestructura.vue
-      demanda.vue
       solucion-cloud.vue
-      costos-planificacion.vue
       ventajas-limitaciones.vue
   app.vue
 content/
@@ -89,19 +86,18 @@ content/propuesta/05-costos-planificacion.md
 content/propuesta/06-ventajas-limitantes.md
 ```
 
-Cada documento de la propuesta debe aceptar metadatos como:
+Los documentos publicados de la propuesta utilizan únicamente estos metadatos:
 
 ```yaml
 ---
 title: "Infraestructura actual"
 description: "Análisis técnico de la operación actual de FINCA."
 order: 2
-status: "pendiente"
 updatedAt: "YYYY-MM-DD"
 ---
 ```
 
-Los estados permitidos son `completo`, `en-progreso` y `pendiente`. Las páginas incompletas deben verse intencionalmente preparadas, no rotas ni llenas de texto ficticio.
+No añadir campos de estado al frontmatter ni mostrar estados en la interfaz. Las secciones que todavía no tengan información deben verse intencionalmente preparadas, no rotas ni llenas de texto ficticio.
 
 ## 6. Contenido obligatorio de QuetzalCloud
 
@@ -180,19 +176,15 @@ La demanda creciente supera la capacidad de atención manual. Esto provoca sobre
 
 ## 8. Organización de la propuesta
 
-El área **Propuesta para FINCA** debe ofrecer una navegación visible y consistente entre seis capítulos:
+El área **Propuesta para FINCA** debe ofrecer una navegación visible y consistente entre tres secciones:
 
 1. Empresa y contexto actual.
-2. Infraestructura actual.
-3. Análisis de servicios y demanda.
-4. Propuesta de solución cloud.
-5. Costos y planificación.
-6. Ventajas, condiciones, limitaciones y conclusiones.
+2. Propuesta de solución cloud.
+3. Ventajas y conclusiones.
 
-Cada capítulo debe permitir agregar posteriormente texto, tablas, métricas, diagramas, imágenes y referencias. Usar componentes reutilizables como:
+Cada sección debe permitir agregar texto, tablas, métricas, diagramas, imágenes y referencias. Usar componentes reutilizables como:
 
 - `SectionHeader`.
-- `StatusBadge`.
 - `MetricCard`.
 - `ServiceCard`.
 - `ValueCard`.
@@ -201,7 +193,9 @@ Cada capítulo debe permitir agregar posteriormente texto, tablas, métricas, di
 - `DataTable`.
 - `ArchitectureDiagram` o un contenedor equivalente para futuros diagramas.
 
-No crear una arquitectura cloud, costos o cronograma definitivos hasta que el equipo proporcione esos datos. Preparar la interfaz y los documentos Markdown con estado `pendiente`.
+La propuesta cloud ya está publicada en `content/propuesta/04-solucion-cloud.md`. Presentar sus servicios de forma funcional, sin exponer endpoints, métodos HTTP, parámetros, tokens ni otros detalles internos de API. No inventar costos o cronogramas que no hayan sido proporcionados por el equipo.
+
+Los diagramas de la solución se mantienen como recursos públicos en `public/image4.png` y `public/image5.png`. Toda imagen informativa nueva debe incluir texto alternativo.
 
 ## 9. Diseño visual
 
@@ -248,7 +242,7 @@ Requisitos:
 - Pie de página con marca, navegación secundaria y aviso de proyecto académico.
 - Enlaces de salto al contenido.
 - Breadcrumbs dentro de la propuesta.
-- Navegación anterior/siguiente entre capítulos.
+- Navegación anterior/siguiente entre secciones.
 - Estados de foco visibles y navegación completa mediante teclado.
 
 ## 11. Calidad, accesibilidad y SEO
@@ -298,8 +292,8 @@ La primera versión se considera completa cuando:
 - El proyecto Nuxt se ejecuta y compila sin errores.
 - La identidad completa de QuetzalCloud está publicada.
 - La información aprobada del contexto FINCA está publicada.
-- Todas las rutas principales y los seis capítulos funcionan.
-- Los capítulos pendientes muestran una estructura útil para agregar contenido.
+  - Las rutas principales y las tres secciones publicadas funcionan.
+  - Las secciones pendientes muestran una estructura útil para agregar contenido.
 - La interfaz es adaptable, accesible y coherente.
 - El contenido está separado de la presentación y puede editarse desde Markdown.
 - Existe un README con instalación, desarrollo, compilación y forma de agregar nuevos contenidos.

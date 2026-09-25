@@ -8,7 +8,7 @@ const chapters = [
 </script>
 
 <template>
-  <nav class="proposal-nav" aria-label="Capítulos de la propuesta">
+  <nav class="proposal-nav" aria-label="Secciones de la propuesta">
     <p class="footer-label">Contenido de la propuesta</p>
     <NuxtLink
       v-for="chapter in chapters"

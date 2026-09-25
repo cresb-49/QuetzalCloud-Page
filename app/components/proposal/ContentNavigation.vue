@@ -3,7 +3,7 @@ defineProps<{ previous?: { title: string; to: string }; next?: { title: string; 
 </script>
 
 <template>
-  <nav class="content-navigation" aria-label="Navegación entre capítulos">
+  <nav class="content-navigation" aria-label="Navegación entre secciones">
     <NuxtLink v-if="previous" :to="previous.to" class="chapter-link previous"
       ><span>← Anterior</span><strong>{{ previous.title }}</strong></NuxtLink
     >

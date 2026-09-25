@@ -179,6 +179,15 @@
   .prose strong {
     @apply text-ink;
   }
+  .prose table {
+    @apply my-8 w-full border-separate border-spacing-0 overflow-hidden rounded-xl border border-[#b8cbc2] text-left;
+  }
+  .prose th {
+    @apply bg-quetzal-light px-4 py-3 font-display font-bold text-quetzal-deep;
+  }
+  .prose td {
+    @apply border-t border-[#dce8e2] px-4 py-3 align-top text-sm;
+  }
   .prose blockquote {
     @apply my-[30px] rounded-r-xl border-l-[3px] border-quetzal-primary bg-quetzal-light px-6 py-5;
   }
@@ -391,6 +400,9 @@
   }
   .contact-card {
     @apply p-7;
+  }
+  .prose table {
+    @apply block overflow-x-auto whitespace-nowrap;
   }
   .chapter-card {
     @apply grid-cols-[40px_1fr] p-[18px];

@@ -42,10 +42,10 @@ const chapters = [
           <ProposalNav />
           <div>
             <div class="section-header">
-              <p class="eyebrow">Tres capítulos</p>
+              <p class="eyebrow">Propuesta FINCA</p>
               <h2>Un camino claro para seguir construyendo.</h2>
               <p>
-                Cada capítulo está preparado para incorporar texto, tablas, métricas, diagramas,
+                La propuesta está preparada para incorporar texto, tablas, métricas, diagramas,
                 imágenes y referencias a medida que avance el equipo.
               </p>
             </div>
